@@ -1,0 +1,161 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Venkat Reddy</title>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easytabs.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+<div id="content">
+<div class="menu">
+<ul class="tabs">
+<li><a href="#profile" class="profile-tab">Profile</a></li>
+<li><a href="#resume" class="resume-tab">Resume</a></li>
+<li><a href="#portfolio" class="portfolio-tab">Portfolio</a></li>
+
+</ul>
+</div>
+<div id="profile">
+<div class="about">
+<div class="profile-photo"><img src="images/passport.jpg" width="127" height="154"/></div>
+<h1>VenkatappaReddy Manukonda</h1>
+<h3><i>EEE Undergraduate 2018</i></h3>
+</div>
+<ul class="basic-info">
+<li><h3>BASIC INFO </h3></li>
+<li><label>Birth date</label><span>August 28, 1995</span></li>
+<li><label>Address</label><span>Ravela,Guntur</span></li>
+<li><label>Phone</label><span>+919666461077</span></li>
+<li><label>Contact</br> Email</label><span>contactme</br>@vreddy.in</span></li>
+<li><label>Work Email</label><span>venkat28895</br>@gmail.com</span></li>
+<li><label>Website</label><a href="#"><span>www.vreddy.in</span></a></li>
+
+</ul>
+</div>
+<div id="resume">
+<div class="resume-section">
+<h3 class="main-heading">Educational Background</h3>
+<ul class="date">
+<li>
+<div class="date-box">
+<h4>K L University<span class="date-range">2014 - 2018</span></h4>
+<h5>Vaddeswaram, Vijayawada</h5>
+<h5>CGPA:8.69</h5>
+</div>
+<div class="date-box">
+<h4>Narayana Educational Institutions<span class="date-range">2012 - 2014</span></h4>
+<h5>Guntur</h5>
+<h5>Percentage:	95.3%</h5>
+<h5>Board:	Board Of Intermediate</h5>
+</div>
+<div class="date-box">
+<h4>Sri Satya Sai High School<span class="date-range">2010 - 2012</span></h4>
+<h5>Tadikonda</h5>
+<h5>CGPA:	8.3	</h5>
+<h5>Board:	State Secondary School Certificate</h5>
+</div>
+<div class="date-box">
+<h4>Sri Satya Sai High School<span class="date-range">2000 - 2010</span></h4>
+<h5>Tadikonda</h5>
+</div>
+</li>
+<div class="clear"></div>
+</ul>
+<h3 class="main-heading">Experience</h3>
+<ul class="date">
+<li>
+<div class="date-box">
+<h4>ELITE<span class="date-range">April2016 - June2016</span></h4>
+<h5>KLUniversity</h5>
+<h4>•Concepts of C, Java with implementation in Hacker Rank </h4>
+</div>
+</li>
+</ul>
+<h3 class="main-heading">Electives/Technical Proficiency</h3>
+<ul class="date">
+<li>
+<div class="date-box">
+<h4>Professional Electives: </h4>
+<h5>Advanced Power Electronics, Machine Modelling Analysis.</h5>
+</div>
+</li>
+</ul>
+<ul class="date">
+<li>
+<div class="date-box">
+<h4>Electives: </h4>
+<h5> Linux, Disaster Management,Energy and Society,Measurements.</h5>
+</div>
+</li>
+</ul>
+
+</div>
+
+<div class="skills-section">
+<h3 class="main-heading"><span>Technical Proficiency:</span></h3>
+<ul class="skills">
+<li> <h4>* C</h4></li>
+<li> <h4>* JAVA </h4></li>
+<li> <h4>* Python </h4></li>
+<li> <h4>* Oracle </h4></li>
+<li> <h4>* Linux</h4> </li>
+<li> <h4>* Adobe Photoshop</h4> </li>
+<li> <h4>* After Effects</h4> </li>
+</ul>
+</div>
+</div>
+<div id="portfolio">
+<div class="heading">My Latest Projects</div>
+<ul id="portfolios">
+<li>
+
+<a href="http://yaswanthreddy.tech/kluspark" target="_blank">
+<img src="images/spark.png">
+<h2 class="portfolio-title">Broadcasting</h2>
+<span class="desc">Department of EEE</span>
+
+</a>
+</li>
+<li>
+<video width="300" height="200" controls src="Spark 2017 Teaser __ KLU __ EEE.mp4">
+  Your browser does not support the video tag.
+</video>
+<p>
+Made By  
+<a href="C:\Users\Venkat\Desktop\html\yaswanthreddy20.github.io-master" target="Spark 2017 Teaser __ KLU __ EEE">Venkat Reddy</a>.
+</p>
+
+
+</ul>
+</div>
+
+</div></br>
+<marquee><p>&copy; 2017  Designed and Built by<a href="http://vreddy.in">  venkat Reddy</a ></p>   
+</marquee>
+</div>
+
+</div>
+<script>
+		jQuery(document).ready(function(){ 
+			var $content 		= $("#content");
+			$content.easytabs({
+			  animate			: true,
+			  transitionIn		:'slideDown',
+			  transitionOut		:'slideUp',
+			  animationSpeed	:500,
+			  tabs				:"> .menu > ul > li",
+			  tabActiveClass	:'active',
+			});
+		});	
+</script>
+</body>
+</html>
